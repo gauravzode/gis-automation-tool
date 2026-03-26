@@ -1,0 +1,8 @@
+number=29
+is_prime = "true"
+if number>1:
+    for i in range(2,29):
+        if (number % i) ==0:
+            print("False")
+        break
+print(is_prime)
