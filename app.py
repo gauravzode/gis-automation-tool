@@ -1,9 +1,7 @@
 import streamlit as st
-import geopandas as gpd
 
 st.title("🌍 GIS Automation Tool")
-
-st.write("Click the button to run analysis")
+st.write("App is running successfully ✅")
 
 # Button to trigger analysis
 if st.button("Run Analysis"):
